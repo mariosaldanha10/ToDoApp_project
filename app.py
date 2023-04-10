@@ -30,7 +30,7 @@ def index():
     return render_template('login.html')
 
 
-# register
+#REGISTER
 @app.route("/registration/", methods=['post', 'get'])
 def register():
     message = ''
@@ -79,7 +79,7 @@ def register():
 if __name__ == "__main__":
     app.run(debug=True)
 
-#logged in
+#LOGGED IN
 @app.route('/logged_in')
 def logged_in():
     # Checks if the email is in the session dictionary
@@ -93,7 +93,7 @@ def logged_in():
         return redirect(url_for("login"))
 
 
-# login page app
+#LOGIN PAGE
 @app.route("/login", methods=["POST", "GET"])
 def login():
     # Initialize the message variable with a default value
@@ -128,7 +128,7 @@ def login():
     return render_template('login.html', message=message)
 
 
-# logging out
+#LOG OUT
 @app.route("/logout", methods=["POST", "GET"])
 def logout():
     if "email" in session:
@@ -137,7 +137,7 @@ def logout():
     else:
         return render_template('login.html') # render login page
 
-
+#TO DO PAGE
 @app.route('/mytodo_index/', methods=('GET', 'POST'))
 def mytodo_index():
     # If form submitted
