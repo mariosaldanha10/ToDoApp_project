@@ -16,6 +16,7 @@ pip install Flask pymongo
 
 pip install bcrypt
 
+
 <i><h3>To run the application use the command below:</i></h3>
 
 python -m flask run
