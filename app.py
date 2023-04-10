@@ -4,10 +4,8 @@ from bson.objectid import ObjectId
 import bcrypt
 import secrets
 
-
 app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
-
 
 client = pymongo.MongoClient(
     'mongodb+srv://22453:Admin123@cluster0.a7d37zg.mongodb.net/?retryWrites=true&w=majority')
@@ -20,6 +18,7 @@ todos = db.todos
 
 records = db.register
 
+
 # This route checks if the user is
 # logged in by checking if their email is in the session. If not, it redirects to the login page.
 @app.route("/", methods=['post', 'get'])
@@ -30,7 +29,7 @@ def index():
     return render_template('login.html')
 
 
-#REGISTER
+# REGISTER
 @app.route("/registration/", methods=['post', 'get'])
 def register():
     message = ''
@@ -79,7 +78,8 @@ def register():
 if __name__ == "__main__":
     app.run(debug=True)
 
-#LOGGED IN
+
+# LOGGED IN
 @app.route('/logged_in')
 def logged_in():
     # Checks if the email is in the session dictionary
@@ -93,7 +93,7 @@ def logged_in():
         return redirect(url_for("login"))
 
 
-#LOGIN PAGE
+# LOGIN PAGE
 @app.route("/login", methods=["POST", "GET"])
 def login():
     # Initialize the message variable with a default value
@@ -128,25 +128,26 @@ def login():
     return render_template('login.html', message=message)
 
 
-#LOG OUT
+# LOG OUT
 @app.route("/logout", methods=["POST", "GET"])
 def logout():
     if "email" in session:
-        session.pop("email", None) # remove "email" from session
-        return render_template("signout.html") # render signout page
+        session.pop("email", None)  # remove "email" from session
+        return render_template("signout.html")  # render signout page
     else:
-        return render_template('login.html') # render login page
+        return render_template('login.html')  # render login page
 
 #TO-DO PAGE
 @app.route('/mytodo_index/', methods=('GET', 'POST'))
 def mytodo_index():
     # If form submitted
     if request.method == 'POST':
-        # Get content and degree from form
+        # Get content, priority, and status from form
         content = request.form['content']
-        degree = request.form['degree']
-        # Insert to-do item into database
-        todos.insert_one({'content': content, 'degree': degree})
+        priority = request.form['priority']
+        status = request.form['status']
+        # Insert to-do item into database with content, priority, and status
+        todos.insert_one({'content': content, 'priority': priority, 'status': status})
         # Redirect back to to-do list page
         return redirect(url_for('mytodo_index'))
     # Get all to-do items from database
@@ -157,10 +158,7 @@ def mytodo_index():
 
 @app.post('/<id>/delete/')
 def delete(id):
+    # Delete to-do item from database with matching id
     todos.delete_one({"_id": ObjectId(id)})
     # Redirect back to to-do list page after deleting
     return redirect(url_for('mytodo_index'))
-
-
-if __name__ == '__main__':
-    app.run()
