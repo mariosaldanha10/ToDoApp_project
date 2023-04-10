@@ -39,6 +39,6 @@ The Todo App landing page - user has the option to go back to previous page clic
 
 ![Screenshot (173)](https://user-images.githubusercontent.com/90685473/230964320-a721a313-6aa9-48a2-87bd-cd236393445b.png)
 
-New features added as follows as status "in progress" or "complete" and priority as "low", "medium" and "high". 
+New features added as follows as status "in progress" or "complete" and priority as "low", "medium" and "high". Also the background color has changed. 
 ![Screenshot (175)](https://user-images.githubusercontent.com/90685473/230999171-16de4752-a5a2-4184-82b1-f5f7ede2cad3.png)
 
