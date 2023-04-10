@@ -137,7 +137,7 @@ def logout():
     else:
         return render_template('login.html') # render login page
 
-#TO DO PAGE
+#TO-DO PAGE
 @app.route('/mytodo_index/', methods=('GET', 'POST'))
 def mytodo_index():
     # If form submitted
