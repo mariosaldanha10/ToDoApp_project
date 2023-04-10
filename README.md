@@ -8,12 +8,12 @@ The application should have a registration and login system to ensure that each 
 
 The application should be built using the Model-View-Controller (MVC) architecture to separate concerns and make the code easier to maintain and update. The model layer should include the data structures and functions that interact with the MongoDB database. The view layer should include the HTML templates and CSS styles that define the user interface. The controller layer should include the Flask routes and functions that handle user input and manage the flow of data between the model and view layers.
 
-Please install the following packages before run the application as follows:
+<i><h3>Please install the following packages before run the application as follows:</i></h3>
 
 pip install -U Flask
 pip install Flask pymongo
 pip install bcrypt
 
-To run the application use the command below:
+<i><h3>To run the application use the command below:</i></h3>
 
 python -m flask run
