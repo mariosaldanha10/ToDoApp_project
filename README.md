@@ -11,7 +11,9 @@ The application should be built using the Model-View-Controller (MVC) architectu
 <i><h3>Please install the following packages before run the application as follows:</i></h3>
 
 pip install -U Flask
+
 pip install Flask pymongo
+
 pip install bcrypt
 
 <i><h3>To run the application use the command below:</i></h3>
