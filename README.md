@@ -46,10 +46,4 @@ New features added as follows as status "in progress" or "complete" and priority
 <h1> APP DEVELOPED USING MODERN TECHNOLOGIES</h1>
 
 
-![download](https://user-images.githubusercontent.com/90685473/231031990-1992a4ae-fac8-4229-90ac-56ce4751f196.png)
-
-![photo_2023-03-30_09-57-32](https://user-images.githubusercontent.com/90685473/231032072-e6118d71-2a15-4ccd-9357-bad074f14a6d.jpg)
-
-![download (1)](https://user-images.githubusercontent.com/90685473/231032134-5c9b19fa-8b3d-44d1-b4d7-1ac8b290dee2.png)
-
-![download (2)](https://user-images.githubusercontent.com/90685473/231032299-ea26c8ea-4a29-4f59-bbff-36c156f355c7.png)
+![download](https://user-images.githubusercontent.com/90685473/231031990-1992a4ae-fac8-4229-90ac-56ce4751f196.png)![photo_2023-03-30_09-57-32](https://user-images.githubusercontent.com/90685473/231032072-e6118d71-2a15-4ccd-9357-bad074f14a6d.jpg)![download (1)](https://user-images.githubusercontent.com/90685473/231032134-5c9b19fa-8b3d-44d1-b4d7-1ac8b290dee2.png)![download (2)](https://user-images.githubusercontent.com/90685473/231032299-ea26c8ea-4a29-4f59-bbff-36c156f355c7.png)
