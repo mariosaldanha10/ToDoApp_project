@@ -25,12 +25,3 @@ class TestLogin(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'Wrong password', response.data)
 
-"""
-The test output shows two failing tests:
-
-test_invalid_login: This test is failing because the string "Wrong password" was not found in the response data. This indicates that the login form did not display the error message when an incorrect password was entered.
-
-test_valid_login: This test is failing because the response status code is 200 (OK) instead of 302 (Found). This indicates that the login form did not redirect to the correct page after a successful login.
-
-To fix these issues, the login functionality needs to be updated to correctly handle invalid logins and redirect to the correct page after a successful login.
-"""
