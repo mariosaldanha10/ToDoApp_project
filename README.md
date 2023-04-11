@@ -1,6 +1,6 @@
 # ToDoApp_project
 
-<h1> Flask TODO App developed using authentication and using MongoDB as documented-oriented database. </h1>
+<h1> Flask TODO App was developed using authentication rules and MongoDB as documented-oriented database. </h1>
 
 A Flask to-do app with MongoDB and authentication is a web application that allows users to create and manage their to-do lists. The application is built using the Flask web framework and the MongoDB NoSQL database, which provides a scalable and flexible data storage solution.
 
@@ -42,3 +42,10 @@ The Todo App landing page - user has the option to go back to previous page clic
 New features added as follows as status "in progress" or "complete" and priority as "low", "medium" and "high". Also the background color has changed. 
 ![Screenshot (175)](https://user-images.githubusercontent.com/90685473/230999171-16de4752-a5a2-4184-82b1-f5f7ede2cad3.png)
 
+
+<h1> THE TODO APP WAS DEVELOPED USING THESE MODERN TECHNOLOGIES</h1>
+
+
+![download](https://user-images.githubusercontent.com/90685473/231031990-1992a4ae-fac8-4229-90ac-56ce4751f196.png)![photo_2023-03-30_09-57-32](https://user-images.githubusercontent.com/90685473/231032072-e6118d71-2a15-4ccd-9357-bad074f14a6d.jpg)
+
+![download (1)](https://user-images.githubusercontent.com/90685473/231032134-5c9b19fa-8b3d-44d1-b4d7-1ac8b290dee2.png)![download (2)](https://user-images.githubusercontent.com/90685473/231032299-ea26c8ea-4a29-4f59-bbff-36c156f355c7.png)
