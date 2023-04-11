@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
 
 client = pymongo.MongoClient(
-    'mongodb+srv://22453:Admin123@cluster0.a7d37zg.mongodb.net/?retryWrites=true&w=majority')
+    'mongodb+srv://22453:Adminsantos1!@cluster0.a7d37zg.mongodb.net/?retryWrites=true&w=majority')
 
 # database
 db = client.mario_db
