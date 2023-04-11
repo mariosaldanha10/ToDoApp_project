@@ -8,6 +8,8 @@ The application should have a registration and login system to ensure that each 
 
 The application should be built using the Model-View-Controller (MVC) architecture to separate concerns and make the code easier to maintain and update. The model layer should include the data structures and functions that interact with the MongoDB database. The view layer should include the HTML templates and CSS styles that define the user interface. The controller layer should include the Flask routes and functions that handle user input and manage the flow of data between the model and view layers.
 
+New features were added and now the user is able to mark the task priority as "low", "medium" and "high" and also mark the status task as "in progress" or "complete".
+
 <i><h3>Please install the following packages before run the application as follows:</i></h3>
 
 pip install -U Flask
@@ -36,3 +38,7 @@ Page of user logged after being registered - there are also options to go to Tod
 The Todo App landing page - user has the option to go back to previous page clicking on the go back link.
 
 ![Screenshot (173)](https://user-images.githubusercontent.com/90685473/230964320-a721a313-6aa9-48a2-87bd-cd236393445b.png)
+
+New features added as follows as status "in progress" or "complete" and priority as "low", "medium" and "high". Also the background color has changed. 
+![Screenshot (175)](https://user-images.githubusercontent.com/90685473/230999171-16de4752-a5a2-4184-82b1-f5f7ede2cad3.png)
+
