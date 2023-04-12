@@ -27,6 +27,7 @@ python -m flask run
 
 python -m unittest tests.py
 
+<h3>Screenshots of the App working</h3>
 
 Registration landing page.
 
