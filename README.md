@@ -49,7 +49,7 @@ New features added as follows as status "in progress" or "complete" and priority
 ![Screenshot (175)](https://user-images.githubusercontent.com/90685473/230999171-16de4752-a5a2-4184-82b1-f5f7ede2cad3.png)
 
 
-<h1> THE TODO APP WAS DEVELOPED USING THESE MODERN TECHNOLOGIES</h1>
+<h1> BELOW YOU CAN SEE SOME OF THE MODERN TECHNOLOGIES USED TO DEVELOP THE TODO APP</h1>
 
 
 ![download](https://user-images.githubusercontent.com/90685473/231031990-1992a4ae-fac8-4229-90ac-56ce4751f196.png)![photo_2023-03-30_09-57-32](https://user-images.githubusercontent.com/90685473/231032072-e6118d71-2a15-4ccd-9357-bad074f14a6d.jpg)
