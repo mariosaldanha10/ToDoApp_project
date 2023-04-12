@@ -27,7 +27,7 @@ python -m flask run
 
 python -m unittest tests.py
 
-<h3>Screenshots of the App working</h3>
+<h3>Below you can see some of the screenshots of the app working</h3>
 
 Registration landing page.
 
